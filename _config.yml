@@ -1,6 +1,7 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
+# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
@@ -15,6 +16,13 @@ rss:
 
 # Specify the date when the site was setup
 #since: 2015
+# Icon fonts
+# Place your font into next/source/fonts, specify directory-name and font-name here
+# Avialable: default | linecons | fifty-shades | feather
+#icon_font: default
+#icon_font: fifty-shades
+icon_font: feather
+#icon_font: linecons
 
 
 
@@ -57,7 +65,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -193,7 +201,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  #admin_nickname: ROOT
+  admin_nickname: david-wei
 
 
 # Facebook SDK Support.
